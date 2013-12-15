@@ -27,7 +27,7 @@ function dologin(){
 
 function dosave(){
 	client.save(dailyJSON());
-	client.getall();
+//	client.getall();
 }
 
 

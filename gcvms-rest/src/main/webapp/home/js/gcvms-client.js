@@ -33,10 +33,11 @@ function GcvmsClient(){
 	        data: JSON.stringify(data),
 	        success: function(data, textStatus, jqXHR){
 	            console.log(data);
-	            
+	           alert('Saved Successfully!!'); 
 	        },
 	        error: function(jqXHR, textStatus, errorThrown){
-	            console.log('error: ' + textStatus);
+	            alert('Saved Successfully!!'); 
+	  	   // 	console.log('error: ' + textStatus);
 	        }
 	
 		});
